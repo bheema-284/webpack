@@ -1,0 +1,24 @@
+ th,
+      td {
+        border: 1px solid black;
+        padding: 10px 20px;
+        font-family: monospace;
+        margin-bottom: 20px;
+        border-radius: 3px;
+      }
+      label,section,input,option,select {
+        border: 1px solid black;
+        padding: 10px 20px;
+        font-family: monospace;
+        margin-bottom: 30px;
+        border-radius: 3px;
+      }
+      h1 {
+        
+        font-family: monospace;
+        margin-bottom: 30px;
+        border-radius: 3px;
+      }
+      #myForm,table,h1{
+        margin-left: 20px;
+      }

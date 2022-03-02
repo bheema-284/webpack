@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todolistlocalstotage</title>
+   <link rel="stylesheet" href="./src/index.css">
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <form id="myForm">
+      <label>Name</label>
+      <input id="name" type="text" placeholder="Enter Todo" />
+      <label>Quantity</label>
+      <input id="qty" type="number" placeholder="enter qty" />
+      <label>Priority</label>
+      <select id="priority">
+        <option value="">--</option>
+        <option value="high">High</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Priority</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>
+
+<script src="./src/index.js">
+  
+</script>
